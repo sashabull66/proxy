@@ -1,7 +1,7 @@
 {
   "name": "nodejs-proxy",
   "version": "1.0.0",
-  "main": "app.js.js",
+  "main": "app.js",
   "license": "MIT",
   "scripts": {
     "run": "node app.js"
