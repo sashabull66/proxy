@@ -6,6 +6,14 @@ const port = process.env.PORT || 3000
 
 // HTTP
 const server =  http.createServer((req, res) => {
+
+    if (req.url === "/test") {
+        res.statusCode = 200
+        res.end("<h2>Home</h2>");
+        return
+    }
+
+
     const requestUrl = req.url;
     console.info(req.method, requestUrl);
 
