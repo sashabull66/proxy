@@ -5,5 +5,8 @@
   "license": "MIT",
   "scripts": {
     "run": "node app.js"
+  },
+  "dependencies": {
+    "node": "14.20.1"
   }
 }
